@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navber {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+#navber::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+
+}
+
+#logo {
+    margin: 0;
+}
+
+#logo img {
+    height: 60px;
+    margin: 10px 20px;
+    border-radius: 4px;
+}
+
+#navber ul {
+    display: flex;
+
+}
+
+#navber ul {
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navber ul a {
+    color: white;
+    display: block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navber ul a:hover {
+    color: black;
+    background: white;
+
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px 20px;
+    height: 300px;
+    align-items: center;
+
+
+}
+
+#content::before {
+    content: "";
+    background: url('../image/food1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 85%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+
+
+
+#content h1 {
+    color: white;
+    text-align: center;
+}
+
+#content p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.n-primary {
+    font-size: 2.8rem;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.services-container{
+    margin: 140px 20px 20px 20px;
+    
+}
+
+.services-container h1{
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+}
+#container {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    float: row;
+    flex-wrap: wrap;
+    /* background-color: aliceblue; */
+}
+
+.card {
+    width: 23rem;
+    background-color: white;
+    height: 55vh;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 10px ;
+}
+.card-image {
+    width: 175px;
+    height: 150px;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.card-body {
+    margin: 0 20px 10px 40px;
+    padding: 0 0 10px 0;
+
+}
+.card-title {
+    margin-bottom: 15px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contact{
+    margin: 20px 20px 20px 20px;
+    background-color: aliceblue;
+    
+}
+.Clint-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px 20px;
+}
+.Clint-logo img {
+    width: 150px;
+    height: 180px;
+    margin: 10px 20px;
+    border-radius: 20px;
+    display: block;
+    padding: 10px;
+}
+#contact h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

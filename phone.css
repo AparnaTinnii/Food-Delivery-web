@@ -1,0 +1,33 @@
+body{
+    background-color: green;
+}
+#navber{
+    flex-direction: column;
+}
+#content{
+    height: 336px;
+    padding: 8px 60px;
+}
+#content::before{
+    height: 480px;
+    
+}
+
+
+.services-container{
+    flex-direction: column;
+    margin: 53px 20px 20px 20px;
+
+}
+
+
+#contact{
+    flex-wrap: wrap;
+}
+
+.Clint-logo{
+    flex-wrap: wrap;
+}
+.n-primary{
+    font-size: 20px;
+}
